@@ -106,7 +106,7 @@ for optname in required_options:
         sys.exit(POSTPROCESS_ERROR)
 
 #Check to see if download was successful
-ppStatus = os.environ['NZBPP_STATUS'] == 'SUCCESS/ALL'
+ppStatus = os.environ['NZBPP_STATUS'].startswith('SUCCESS/')
 
 dnzboptions = ('NZBPR__DNZB_PROPERNAME', 'NZBPR__DNZB_EPISODENAME', 'NZBPR__DNZB_MOVIEYEAR')
 if os.environ.has_key(dnzboptions[0]):

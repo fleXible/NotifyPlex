@@ -9,7 +9,7 @@
 # Auto-Detection of NZBGet Category and Plex Sections is now supported.
 #
 # Copyright (C) 2014 mannibis
-# Version 2.1.1
+# Version 2.1.2
 #
 #
 # NOTE: This script requires Python 2.x to be installed on your system.

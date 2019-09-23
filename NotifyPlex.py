@@ -310,5 +310,5 @@ if ppStatus:
     sys.exit(POSTPROCESS_SUCCESS)
 
 else:
-    print('[ERROR] NOTIFYPLEX: Skipping Plex Update because download failed.')
+    print('[WARNING] NOTIFYPLEX: Skipping Plex Update because download failed.')
     sys.exit(POSTPROCESS_NONE)

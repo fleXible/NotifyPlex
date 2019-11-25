@@ -8,6 +8,8 @@ This script will inform a targeted Plex to refresh/update the library upon succe
 
  - Download the newest version from [releases](https://github.com/fleXible/NotifyPlex/releases) page.
  - Unpack and move "NotifyPlex.py" into your pp-scripts directory.
+ - Install python package "requests" with command "pip install requests".
+    For Python 3.x you might need to use "pip3 install requests". 
  - Open settings tab in NZBGet web-interface and define settings for NotifyPlex.
  - If using VideoSort or other Sort/Rename Scripts, run NotifyPlex after those scripts have sorted/renamed your files.
  - Save changes and restart NZBGet.

@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.4] - 2020-05-12
+
+### Changed
+- Use persistent auth-token instead of username/password to
+  authenticate with plex
+- Your plex password is no longer stored in plaintext on disk
+- Updated README with instructions for Auth-Token
+- Changed README to be better readable
+
 ## [2.1.3] - 2020-03-12
 
 ### Added
